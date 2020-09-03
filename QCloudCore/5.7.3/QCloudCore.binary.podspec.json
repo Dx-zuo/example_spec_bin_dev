@@ -1,0 +1,31 @@
+{
+  "name": "QCloudCore",
+  "version": "5.7.3",
+  "summary": "QCloudCore--腾讯云iOS-SDK Foundation",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」\n QCloudCore--腾讯云iOS-SDK Foundation。提供腾讯云iOS相关SDK的基础能力，包括网络、日志、编程框架、辅助工具等等",
+  "homepage": "https://cloud.tencent.com/",
+  "license": "MIT",
+  "authors": {
+    "QCloud Terminal Team": "QCloudTerminalTeam"
+  },
+  "source": {
+    "http": "http://9.135.89.15:8080/frameworks/QCloudCore/5.7.3/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "CoreMedia",
+    "Accelerate",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "static_framework": true,
+  "source_files": "bin_QCloudCore_5.7.3/Headers/*",
+  "public_header_files": "bin_QCloudCore_5.7.3/Headers/*.h",
+  "vendored_libraries": "bin_QCloudCore_5.7.3/*.a"
+}
