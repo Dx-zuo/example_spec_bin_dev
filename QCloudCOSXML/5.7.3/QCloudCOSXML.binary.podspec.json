@@ -1,0 +1,22 @@
+{
+  "name": "QCloudCOSXML",
+  "version": "5.7.3",
+  "summary": "QCloudCOSXML 腾讯云iOS-SDK组件",
+  "homepage": "https://cloud.tencent.com/",
+  "license": "MIT",
+  "authors": {
+    "QCloud Terminal Team": "QCloudTerminalTeam"
+  },
+  "source": {
+    "http": "http://9.135.89.15:8080/frameworks/QCloudCOSXML/5.7.3/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "source_files": "bin_QCloudCOSXML_5.7.3/Headers/*",
+  "public_header_files": "bin_QCloudCOSXML_5.7.3/Headers/*.h",
+  "vendored_libraries": "bin_QCloudCOSXML_5.7.3/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
