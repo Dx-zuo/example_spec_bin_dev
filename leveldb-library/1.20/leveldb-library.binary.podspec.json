@@ -1,0 +1,31 @@
+{
+  "name": "leveldb-library",
+  "version": "1.20",
+  "license": "New BSD",
+  "summary": "A fast key-value storage library",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」\n LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+  "homepage": "https://github.com/google/leveldb",
+  "authors": "The LevelDB Authors",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "http://9.135.89.15:8080/frameworks/leveldb-library/1.20/zip",
+    "type": "zip"
+  },
+  "requires_arc": false,
+  "compiler_flags": [
+    "-DOS_MACOSX",
+    "-DLEVELDB_PLATFORM_POSIX"
+  ],
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/leveldb-library\" \"${PODS_ROOT}/leveldb-library/include\"",
+    "WARNING_CFLAGS": "-Wno-shorten-64-to-32 -Wno-comma -Wno-unreachable-code -Wno-conditional-uninitialized -Wno-deprecated-declarations",
+    "USE_HEADERMAP": "No"
+  },
+  "header_dir": "leveldb",
+  "source_files": "bin_leveldb-library_1.20/Headers/*",
+  "public_header_files": "bin_leveldb-library_1.20/Headers/*.h",
+  "libraries": "c++",
+  "vendored_libraries": "bin_leveldb-library_1.20/*.a"
+}
