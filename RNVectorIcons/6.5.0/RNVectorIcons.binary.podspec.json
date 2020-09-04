@@ -1,0 +1,27 @@
+{
+  "name": "RNVectorIcons",
+  "version": "6.5.0",
+  "summary": "Customizable Icons for React Native with support for NavBar/TabBar, image source and full styling.",
+  "homepage": "https://github.com/oblador/react-native-vector-icons",
+  "license": "MIT",
+  "authors": {
+    "Joel Arvidsson": "joel@oblador.se"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "http://9.135.89.15:8080/frameworks/RNVectorIcons/6.5.0/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_RNVectorIcons_6.5.0/Headers/*",
+  "resources": "bin_RNVectorIcons_6.5.0/Resources/*",
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "public_header_files": "bin_RNVectorIcons_6.5.0/Headers/*.h",
+  "vendored_libraries": "bin_RNVectorIcons_6.5.0/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
