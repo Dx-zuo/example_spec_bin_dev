@@ -1,0 +1,31 @@
+{
+  "name": "BVLinearGradient",
+  "version": "2.5.4",
+  "homepage": "https://github.com/brentvatne/react-native-linear-gradient",
+  "summary": "A <LinearGradient /> component for react-native",
+  "license": "MIT",
+  "authors": {
+    "Brent Vatne": "brentvatne@gmail.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "http://9.135.89.15:8080/frameworks/BVLinearGradient/2.5.4/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_BVLinearGradient_2.5.4/Headers/*",
+  "frameworks": [
+    "UIKit",
+    "QuartzCore",
+    "Foundation"
+  ],
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "public_header_files": "bin_BVLinearGradient_2.5.4/Headers/*.h",
+  "vendored_libraries": "bin_BVLinearGradient_2.5.4/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
